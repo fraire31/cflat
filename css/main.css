@@ -1,0 +1,469 @@
+*{
+	margin: 0;
+	padding: 0;	
+	font-family: 'Arvo', serif;
+}
+
+nav{
+	width:100%;
+	background-color: rgb(0,188,212);
+}
+
+nav li{
+	display: inline-block;
+	padding-top: 20px;
+	font-weight: 900;
+	margin-left: 10px;
+}
+
+nav ul li a {
+	color:inherit;
+	text-decoration: none;
+}
+
+#logo{
+	margin-left: 40px;
+	margin-right:890px;
+}
+
+#logo:hover{
+	color: white;
+}
+
+nav > ul > li > span {
+	color: rgb(0,188,212);
+}
+
+.secondli {
+	display: inline-block;
+	margin-left: 900px;
+	font-weight: 900;
+	width: 100%;
+}
+
+#firstli{
+	display: inline-block;
+	font-weight: 900;
+}
+
+li.portfolio{
+	background-color: rgb(53,54,59);
+	color: white;
+	border-radius: 90px;
+	width: 8%;
+	padding: 0 !important;
+	text-align: center;
+}
+
+
+/** nav  over**/
+
+.template h1 {
+	display: inline-block;
+	margin-right: 180px;
+	position: relative;
+	bottom: 80px;
+}
+
+.topheading{
+	display:inline-block;
+	text-align: center;
+}
+
+.template{
+	text-align: center;
+	background-color: rgb(0,188,212);
+}
+
+.template img{
+	margin-left: 180px;
+	margin-top: 80px;
+}
+
+.circles {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 20px;
+}
+
+.circles i {
+	display: inline-block;
+	margin: 15px;
+}
+
+/**white section starts**/
+
+.white{
+	text-align: center;
+}
+
+.threedivs > div {
+	text-align: center;
+	display: inline-block;
+}
+
+.first {
+	margin-right:140px;
+}
+
+.third{
+	margin-left: 140px;
+}
+
+
+.threedivs > div > img{
+	width: 200px;
+}
+
+.threedivs > div > .bold {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 900;
+	color: black;
+}
+
+
+.threedivs > div > p {
+	color: rgb(166,165,163);
+	margin-top: 20px;
+}
+
+/** white ends**//
+
+div.greensection{
+	background-color: #B7DA9B;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+div.greensection{
+	background-color: #B7DA9B;
+	margin-top: 100px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.list{
+	margin:30px;
+}
+
+.list ul li {
+	display: inline-block;
+	color: #DAF8BC;
+	margin-right: 25px;
+}
+
+div.picutres{
+	background-color: rgb(221,248,197);
+	margin-top: 200px;
+}
+
+#all{
+	color: rgb(175,227,191);
+	background-color: white;
+}
+
+#web{
+	color: white;
+	border: 1px solid white;
+	border-radius: 60%;
+	background-color: rgb(175,227,191);
+}
+
+.pictures > div > img{
+	width: 300px;
+	margin: 40px;
+	display: inline-block;
+	background-color: rgb(221,248,197);
+}
+
+.greensection button{
+	width: 150px;
+	height: 30px;
+	border: green;
+	margin-bottom:100px;
+}
+
+.greensection button a {
+	color: green;
+	font-weight: 900;
+	text-decoration: none;
+}
+/**end of green section end of green section**/
+
+
+.greysection{
+	background-color: #A7A6A4;
+	display: inline-block;
+	width: 100%;
+}
+
+.topgrey{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom:90px;
+}
+
+.topgrey > img{
+	width: 300px;
+	display: inline-block;
+}
+
+.topgrey .interfacel{
+	text-align: left;
+	display: inline-block;
+	margin-left: 200px;
+	position: relative;
+	bottom: 45px;
+}
+
+.interfacel p{
+	font-size: 12px;
+	margin-top: 20px;
+	word-spacing: 8px;
+}
+
+#greybutton{
+	margin-top: 30px;
+	width: 50%;
+	border-radius: 10px;
+}
+
+#greybutton:hover{
+	width:55%;
+
+}
+
+.line{/**i give up not worth 40mins**/
+	display: block;
+	text-align: center;
+}
+
+.greysection a {
+	color: black;
+	text-decoration: none;
+}
+
+.bottomgrey{
+	text-align: center;
+}
+
+.bottomgrey img{
+	width: 300px;
+	display: inline-block;
+	margin-left: 100px;
+	position: relative;
+	top: 40px;
+}
+
+.interfacer{
+	text-align: left;
+	display: inline-block;
+	margin-right: 130px;
+}
+
+.interfacer p{
+	font-size: 12px;
+	word-spacing: 8px;
+	margin-top: 20px;
+}
+
+.bottomgrey button{
+	width:50%;
+	text-align: center;
+	margin-bottom: 130px;
+	margin-top: 15px;
+}
+
+.bottomgrey button:hover{
+	width: 55%;
+}
+
+.date{
+	color:blue;
+}
+
+/**.threebabyblue > div{
+	border-radius: 10px;
+}**/
+
+/**end of grey section send of grey section**/
+
+.pinksection{
+	background-color: rgb(241,184,225);
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.pinksection .pinkheading {
+	color: white;
+	margin-bottom: 30px;
+}
+
+.johnsmith{
+	text-align: center;
+}
+
+.johnsmith > div h3{
+	margin-top:15px;
+}
+
+.johnsmith > div p{
+	color:grey;
+	margin-top: 15px;
+}
+
+.johnsmith > div ul li{
+	display: inline-block;
+}
+
+.johnsmith > div img{
+	width: 200px;
+}
+
+div.johnsmith > div {
+	display: inline-block;
+	width: 250px;
+}
+/** end of pink section end of pink section**/
+
+/**baby blue section baby blue section**/
+
+.babybluesection{
+	text-align: center;
+	background-color: rgb(175,205,233);
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.babybluesection .heading{
+	color: white;
+	margin-bottom: 30px;
+}
+
+.babybluesection > div img{
+	width: 300px;
+}
+
+.threebabyblue > div{
+	width: 300px;
+	margin: 25px;
+	background-color: white;
+	display: inline-block;
+}
+
+.bluesection button{
+	background-color: white;
+	border-radius: 60%;
+	border: none;
+}
+
+.bluesection button a {
+	color: rgb(175,205,233);
+	text-decoration: none;
+}
+
+.babybluesection button:hover{
+	background-color: rgb(175,205,233);
+	border-color: blue;
+	font-weight: 900;
+	width: 8%;
+}
+/** blue section ends blue section ends blue**/
+
+.contactus {
+	background-color: rgb(53,54,59);
+	text-align: center;
+}
+
+.contactus .heading{
+	padding-top: 40px;
+	padding-bottom:50px;
+}
+
+.contactus > div input{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	width: 30%;
+}
+
+.contactus > div textarea{
+	width:30%;
+	margin-bottom:15px;
+}
+
+input::placholder {
+	color: grey;
+	float: left;
+}
+
+textarea::placeholder {/**i cant*/
+	color:grey;
+	float: left;
+}
+
+.contactus button:hover{
+	background-color: white;
+	font-weight: 900;
+}
+
+.contactus > hr{
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footericons{
+	display: inline-block;
+	float: left;
+}
+
+.footericons ul li{
+	display: inline-block;
+	size: 15px;
+	margin:15px;
+}
+
+.footer{
+	display: inline-block;
+	padding-bottom: 40px;
+	margin-left: 990px;
+}
+
+.footer p {
+	font-size: 10px;
+	display: inline-block;
+}
+
+.footer hr{
+	display: inline-block;
+	height: 10px;
+	border:none;
+	background-color: black;
+}
+
+.footer span{
+	color: white;
+}
+
+/**responsive**/
+
+@media (max-width:1504px){
+	#logo{
+		margin-right: 700px;
+	}
+}
+
+@media (max-width: 1504px){
+	.footer{
+		position: hidden;
+		margin-left:700px;
+	}
+}
+
+
+
+
